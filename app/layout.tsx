@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         url: 'https://www.advertsine.com/images/banner.png',
         width: 1200,
         height: 630,
-        alt: 'Bird Logo',
+        alt: 'advertsine logo',
       },
     ],
   },

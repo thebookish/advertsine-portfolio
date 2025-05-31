@@ -75,7 +75,7 @@ export default function Home() {
       >
         <Link href={"/"}>
           <Image
-            src={"/logo/logo.webp"}
+            src={"/logo/navlogo.webp"}
             alt="Logo"
             width={1000}
             height={1000}
@@ -131,9 +131,9 @@ export default function Home() {
   hover:bg-[#abcbff]
   rounded-[6px]
   border-2
-  border-black
+  border-[#006dff]
   text-white
-  bg-[#121212]
+  bg-[#006dff]
   transition
   duration-200
      hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
@@ -159,13 +159,13 @@ export default function Home() {
   <div className="mt-10 flex flex-col md:flex-row justify-center items-center gap-4">
     <Link
       href="/meeting"
-      className="py-3 px-10 md:px-16 md:text-xl hover:bg-[#abcbff] rounded-[6px] border-2 border-black dark:border-white bg-[#121212] text-white transition duration-200 hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
+      className="py-3 px-10 md:px-16 md:text-xl hover:bg-[#abcbff] rounded-[6px] border-2 border-[#006dff] dark:border-white bg-[#006dff] text-white transition duration-200 hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
     >
       Book a Call
     </Link>
     <Link
       href="/showcase"
-      className="bg-white py-3 px-10 md:px-16 md:text-xl border-4 border-black rounded-[6px] hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
+      className="bg-white py-3 px-10 md:px-16 md:text-xl border-4 border-[#77cbff] rounded-[6px] hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
     >
       Showcase
     </Link>
@@ -175,7 +175,7 @@ export default function Home() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left justify-items-start md:justify-items-center mx-auto mt-10 md:mt-16">
     <BoxReveal boxColor="#3b82f6" duration={0.5}>
-      <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+      <p className="md:text-xl text-[#298dff] font-semibold flex gap-x-2 md:gap-x-4 items-center">
         <PiCheckBold className="text-xl text-blue-500" />
         Design
       </p>
@@ -187,7 +187,7 @@ export default function Home() {
       </p>
     </BoxReveal>
     <BoxReveal boxColor="#3b82f6" duration={0.5}>
-      <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+      <p className="md:text-xl text-[#298dff] font-semibold flex gap-x-2 md:gap-x-4 items-center">
         <PiCheckBold className="text-xl text-blue-500" />
         Marketing
       </p>
@@ -263,7 +263,7 @@ export default function Home() {
             {services.map((service) => (
               <div
                 key={service.title}
-                className="flex flex-col justify-between h-full space-y-4 text-center bg-gray-100 p-4 cursor-pointer hover:scale-105 transition-transform rounded-md"
+                className="flex flex-col text-[#298dff] justify-between h-full space-y-4 text-center bg-gray-100 p-4 cursor-pointer hover:scale-105 transition-transform rounded-md"
               >
                 <Image
                   src={service.icon}
@@ -381,7 +381,7 @@ export default function Home() {
       />
     </h1>
     <p className="text-xl text-gray-500">+880-1338219333</p>
-    <p className="text-xl text-gray-500">support@advertsine.com</p>
+    <p className="text-xl text-[#298dff]">support@advertsine.com</p>
   </div>
 
   <div className="flex flex-col items-center md:flex-row md:justify-center md:gap-x-4 mt-10 text-center text-gray-600">

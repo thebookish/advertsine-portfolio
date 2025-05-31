@@ -32,8 +32,8 @@ xl:w-4/5
     >
       <Link href="/">
       <Image
-        src="/logo/logo.webp"
-        alt="Bird Logo"
+        src="/logo/navlogo.webp"
+        alt="nav Logo"
         width={1000}
         height={1000}
         className="w-28"
@@ -66,8 +66,8 @@ xl:w-4/5
 
       <div className="flex items-center gap-x-4">
       <a href="tel:5193191562" className="hidden xl:flex">
-              <button className="px-4 py-2  rounded-md flex items-center gap-x-3 ">
-              +880-1896409622
+              <button className="px-2 py-2  rounded-md flex items-center gap-x-3 ">
+              +8801896409622
               </button>
             </a>
 
@@ -79,9 +79,9 @@ xl:w-4/5
       hover:bg-[#abcbff] 
       rounded-[6px]
       border-2 
-      border-black 
+      border-[#006dff]
       dark:border-white 
-           bg-[#121212] 
+           bg-[#006dff] 
        text-white 
        transition 
        duration-200 

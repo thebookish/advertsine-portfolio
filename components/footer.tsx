@@ -15,7 +15,7 @@ const Footer = () => {
           />{" "}
         </h1>
         <p className="text-left  text-xl  text-gray-500">+880-1896409622</p>
-        <p className="text-left  text-xl  text-gray-500">
+        <p className="text-left  text-[#298dff] text-xl  text-gray-500">
           support@advertsine.com
         </p>
       </div>
