@@ -209,7 +209,7 @@ export default function Home() {
       <div className="flex flex-col md:flex-row my-6 gap-y-6 md:gap-x-5 w-full justify-center md:justify-start items-center md:items-start">
         <div>
           <h1 className="text-blue-500 text-3xl md:text-5xl">
-            <NumberTicker value={1000} /> +
+            <NumberTicker value={300} /> +
             <p className="text-gray-500 text-sm md:text-md">
               Happy Clients
             </p>
@@ -220,7 +220,7 @@ export default function Home() {
 
         <div className="flex-1 min-w-0">
           <h1 className="text-blue-500 text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
-            <NumberTicker value={100} /> +
+            <NumberTicker value={70} /> +
             <p className="text-gray-500 text-sm md:text-md">
               Projects Completed
             </p>
