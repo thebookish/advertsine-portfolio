@@ -20,6 +20,12 @@ import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen
 
 const services = [
   {
+    icon: "/images/s_3.png",
+    title: "Social Media Management",
+    description:
+      "Our all-in-one social media management platform unlocks the full potential of social to transform not just your marketing strategy—but every area of your organization.",
+  },
+  {
     icon: "/images/s_6.png",
     title: "Web Design + Development",
     description:
@@ -37,12 +43,7 @@ const services = [
     description:
       "Boost your brand's online presence with our social media marketing services",
   },
-  {
-    icon: "/images/s_3.png",
-    title: "Social Media Marketing",
-    description:
-      "Interact with your customers and increase sales with our email marketing services",
-  },
+  
   {
     icon: "/images/s_4.png",
     title: "Email Marketing",
@@ -83,7 +84,7 @@ export default function Home() {
         </Link>
 
         <div className="absolute right-1/2 translate-x-1/2 transform">
-          <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
+          <div className="hidden md:flex gap-x-6 items-center text-gray-700 font-medium text-lg cursor-pointer">
             <Link href={"/showcase"} className="hover:text-blue-500">
               Showcase
             </Link>
@@ -116,8 +117,8 @@ export default function Home() {
 
         <div className="flex items-center gap-x-4">
           <a href="tel:519400200" className="hidden lg:flex">
-            <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-              (519)-400-200
+            <button className="px-2 py-2 rounded-md flex items-center gap-x-3">
+            +880-1338219333
             </button>
           </a>
 
@@ -331,7 +332,7 @@ export default function Home() {
       <section>
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
-            src={"/logo/logo.webp"}
+            src={"/images/client.webp"}
             width={10000}
             height={10000}
             className=" md:w-1/3 rounded-md"
@@ -339,7 +340,7 @@ export default function Home() {
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
             <h1 className="text-lg md:text-2xl ">
-              &quot;We&apos;ve been working with Advertsine for over 2 years and
+              &quot;We&apos;ve been working with Advertsine for over 1 years and
               they&apos;ve been amazing to work with. They&apos;ve helped us
               grow our business and we couldn&apos;t be happier with the
               results. &quot;
@@ -379,7 +380,7 @@ export default function Home() {
         alt="image"
       />
     </h1>
-    <p className="text-xl text-gray-500">519-200-5000</p>
+    <p className="text-xl text-gray-500">+880-1896409622</p>
     <p className="text-xl text-gray-500">admin@advertsine.com</p>
   </div>
 
