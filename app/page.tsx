@@ -118,7 +118,7 @@ export default function Home() {
         <div className="flex items-center gap-x-4">
           <a href="tel:519400200" className="hidden lg:flex">
             <button className="px-2 py-2 rounded-md flex items-center gap-x-3">
-            +880-1338219333
+            +8801338219333
             </button>
           </a>
 
@@ -380,8 +380,8 @@ export default function Home() {
         alt="image"
       />
     </h1>
-    <p className="text-xl text-gray-500">+880-1896409622</p>
-    <p className="text-xl text-gray-500">admin@advertsine.com</p>
+    <p className="text-xl text-gray-500">+880-1338219333</p>
+    <p className="text-xl text-gray-500">support@advertsine.com</p>
   </div>
 
   <div className="flex flex-col items-center md:flex-row md:justify-center md:gap-x-4 mt-10 text-center text-gray-600">
