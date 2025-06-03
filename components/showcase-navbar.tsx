@@ -3,94 +3,60 @@ import Link from "next/link";
 
 const ShowcaseNavbar = () => {
   return (
-    <div
-      className="
-      overflow-hidden
-      p-10
-      
-
-    rounded-[6px]
-    top-5
-    sticky
-    md:mx-auto
-
-    transform 
-    z-50
-xl:w-4/5 
-2xl:w-[68%]
-
-   
-    bg-white 
-    flex 
-    items-center
-    justify-between py-6
-    px-4
-    md:px-8
-    mx-6
-    
-    "
-    >
-      <Link href="/">
-      <Image
-        src="/logo/navlogo.webp"
-        alt="nav Logo"
-        width={1000}
-        height={1000}
-        className="w-28"
-      />
-      </Link>
-
-      <div className="absolute right-1/2 translate-x-1/2 transform">
-        <div className="hidden md:flex gap-x-10 2xl:gap-x-10 items-center text-gray-700 font-medium text-lg ">
-          <Link
-            href="/showcase"
-            className="
-          hover:text-blue-500
-          "
-          >
-            Showcase
+    <nav className="sticky top-0 z-50 backdrop-blur-md bg-white/90 border-b border-gray-200/50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          <Link href="/" className="flex items-center space-x-2">
+            <Image
+              src="/logo/navlogo.webp"
+              alt="Advertsine Logo"
+              width={120}
+              height={40}
+              className="h-8 w-auto"
+            />
           </Link>
-             <Link href="/" className="hover:text-blue-500">
-            Services
-          </Link>
-          <Link href="/" className="hover:text-blue-500">
-        Process
-          </Link>
-          <Link href="/" className="hover:text-blue-500">
-            Guarentees
-          </Link>
-  
+
+          <div className="hidden md:flex items-center space-x-8">
+            <Link
+              href="/"
+              className="text-gray-700 hover:text-blue-600 transition-colors"
+            >
+              Home
+            </Link>
+            <Link href="/showcase" className="text-blue-600 font-medium">
+              Portfolio
+            </Link>
+            <Link
+              href="/#services"
+              className="text-gray-700 hover:text-blue-600 transition-colors"
+            >
+              Services
+            </Link>
+            <Link
+              href="/#about"
+              className="text-gray-700 hover:text-blue-600 transition-colors"
+            >
+              About
+            </Link>
+          </div>
+
+          <div className="flex items-center space-x-4">
+            <a
+              href="tel:+8801338219333"
+              className="hidden lg:block text-sm text-gray-600 hover:text-blue-600 transition-colors"
+            >
+              +880-1338-219-333
+            </a>
+            <Link
+              href="/meeting"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-medium transition-all duration-200 hover:shadow-lg hover:scale-105"
+            >
+              Get Started
+            </Link>
+          </div>
         </div>
       </div>
-
-
-      <div className="flex items-center gap-x-4">
-      <a href="tel:5193191562" className="hidden xl:flex">
-              <button className="px-2 py-2  rounded-md flex items-center gap-x-3 ">
-              +8801896409622
-              </button>
-            </a>
-
-
-      <Link
-      href={"/meeting"}
-        className="py-3 px-6
-      text-lg
-      hover:bg-[#abcbff] 
-      rounded-[6px]
-      border-2 
-      border-[#006dff]
-      dark:border-white 
-           bg-[#006dff] 
-       text-white 
-       transition 
-       duration-200 
-       hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
-      >
-        Book a call
-      </Link>
-      </div>
-    </div>
+    </nav>
   );
 };
 
