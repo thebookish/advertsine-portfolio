@@ -221,8 +221,8 @@ export default function Home() {
 
             <BlurFade delay={0.3}>
               <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
-                We're a full-service digital marketing agency specializing in
-                social media management, web development, and mobile app
+                We&apos;re a full-service digital marketing agency specializing
+                in social media management, web development, and mobile app
                 solutions that drive real results for your business.
               </p>
             </BlurFade>
@@ -344,9 +344,9 @@ export default function Home() {
                     <span className="text-blue-600">Advertsine?</span>
                   </h2>
                   <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                    We're not just another digital agency. We're your strategic
-                    partner in growth, combining creativity with data-driven
-                    insights to deliver exceptional results.
+                    We&apos;re not just another digital agency. We&apos;re your
+                    strategic partner in growth, combining creativity with
+                    data-driven insights to deliver exceptional results.
                   </p>
 
                   <div className="space-y-6">
@@ -421,8 +421,8 @@ export default function Home() {
                   What Our <span className="text-blue-600">Clients Say</span>
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                  Don't just take our word for it. Here's what our clients have
-                  to say about working with us.
+                  Don&apos;t just take our word for it. Here&apos;s what our
+                  clients have to say about working with us.
                 </p>
               </BlurFade>
             </div>
@@ -440,7 +440,7 @@ export default function Home() {
                       ))}
                     </div>
                     <p className="text-gray-700 mb-6 leading-relaxed">
-                      "{testimonial.content}"
+                      &quot;{testimonial.content}&quot;
                     </p>
                     <div className="flex items-center">
                       <Image
@@ -475,8 +475,8 @@ export default function Home() {
               Ready to Transform Your Business?
             </h2>
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-              Let's discuss how we can help you achieve your digital marketing
-              goals and drive real growth for your business.
+              Let&apos;s discuss how we can help you achieve your digital
+              marketing goals and drive real growth for your business.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
@@ -510,8 +510,9 @@ export default function Home() {
                 className="h-10 w-auto mb-4"
               />
               <p className="text-gray-400 mb-6 max-w-md">
-                We're a full-service digital marketing agency helping businesses
-                grow through strategic online presence and innovative solutions.
+                We&apos;re a full-service digital marketing agency helping
+                businesses grow through strategic online presence and innovative
+                solutions.
               </p>
               <div className="flex space-x-4">
                 <a

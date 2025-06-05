@@ -18,9 +18,9 @@ function LetsMakeThingsHappenSection() {
           </h2>
 
           <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Let's discuss how we can help you achieve your digital marketing
-            goals and drive real growth for your business. Get started with a
-            free consultation today.
+            Let&apos;s discuss how we can help you achieve your digital
+            marketing goals and drive real growth for your business. Get started
+            with a free consultation today.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

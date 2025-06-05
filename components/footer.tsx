@@ -15,8 +15,9 @@ const Footer = () => {
               className="h-10 w-auto mb-4 brightness-0 invert"
             />
             <p className="text-gray-400 mb-6 max-w-md leading-relaxed">
-              We're a full-service digital marketing agency helping businesses
-              grow through strategic online presence and innovative solutions.
+              We&apos;re a full-service digital marketing agency helping
+              businesses grow through strategic online presence and innovative
+              solutions.
             </p>
             <div className="flex flex-col space-y-2">
               <a
