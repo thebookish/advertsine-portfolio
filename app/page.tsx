@@ -555,7 +555,7 @@ export default function Home() {
               <ul className="space-y-2 text-gray-400">
                 <li>+880-1338-219-333</li>
                 <li>support@advertsine.com</li>
-                <li>Dhaka, Bangladesh</li>
+                <li>Sylhet, Bangladesh</li>
               </ul>
             </div>
           </div>
